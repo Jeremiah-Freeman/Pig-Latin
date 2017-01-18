@@ -1,0 +1,23 @@
+1.  The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
+Example Input: 3
+Example Output: 3
+
+
+2.  The program adds "ay" to single-letter words beginning with a vowel.
+Example Input: i
+Example Output: iay
+
+
+3.  The program moves first consecutive consonants of a word to the end , then adds ‘ay’
+Example Input: Police
+Example Output: Licepo-ay
+
+
+4.  If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first!
+Example Input: Squeal
+Example Output: Ueal-sqay
+
+
+5.  If words begin with “y”, program will treat “y” as a consonant
+Example Input: Yellow
+Example Output: Ellow-yay
